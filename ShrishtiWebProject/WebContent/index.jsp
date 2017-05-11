@@ -15,7 +15,7 @@
 <title>Search page using jsp/jQuery</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-$(document).ready(function() {  
+$(document).ready(function() {Â Â 
 		
 		$("#search").on("click", function(){
 			var name = $("#serchName").val();
@@ -35,7 +35,7 @@ $(document).ready(function() {  
 					
 				}
 			});
-		})   
+		})Â Â  
 	});
 function nameSearch(name) {
 	if(name.length == 0) {
@@ -80,7 +80,8 @@ function fill(thisValue) {
 						</div>
 					</div>
 				</form>
-				<div id ="dispCount">
+				<br>
+				<div id ="dispCount" class = "well">
 					<p id="pCount"></p>
 				</div>
             </div>
